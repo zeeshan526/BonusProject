@@ -1,0 +1,15 @@
+
+
+.image{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+
+}
+.f1{
+    background-color: rgb(42, 54, 66);
+    color: white;
+    height: 40px;
+    padding-top: 25px;
+    text-align: center;
+}
