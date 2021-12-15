@@ -8,7 +8,7 @@ function OrderNow() {
           <div>
             <h1 className={ordernow.head}>Place your order right now.</h1>
             <p  className={ordernow.para}>Just one click and you will have food at your doorstep. </p>
-            <Button style={{marginBottom:"20px"}} variant="contained">Order Now</Button>
+            <Button id="addToCartButton" style={{marginBottom:"20px"}} variant="contained">Order Now</Button>
           </div>
         </div>
   

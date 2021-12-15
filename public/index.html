@@ -66,5 +66,14 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <button id="addToCartButton">Purchase</button>
+    <script type="text/javascript">
+      $('#$addToCartButton').click(function() {
+        fbq('track', 'Purchase', {currency: "USD", value: 30.00});
+      });
+    </script>
+
+
   </body>
 </html>
