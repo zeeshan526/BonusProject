@@ -45,6 +45,8 @@
       'https://connect.facebook.net/en_US/fbevents.js');
       fbq('init', '2661623394146905');
       fbq('track', 'PageView');
+  
+
       </script>
       <noscript><img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=2661623394146905&ev=PageView&noscript=1"
@@ -67,12 +69,9 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 
-    <button id="addToCartButton">Purchase</button>
-    <script type="text/javascript">
-      $('#$addToCartButton').click(function() {
-        fbq('track', 'Purchase', {currency: "USD", value: 30.00});
-      });
-    </script>
+<script>
+      fbq('track', 'Order now');
+</script>
 
 
   </body>
